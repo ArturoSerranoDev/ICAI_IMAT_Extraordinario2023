@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 433233808844719072}
   - component: {fileID: 8270403345160140521}
   m_Layer: 0
-  m_Name: P_Sphere
+  m_Name: P_EnemySphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0d86547d49592a343b2159610ae11325, type: 2}
+  - {fileID: 2100000, guid: 65da9bdb90ced79488d2c356db1781b7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -118,4 +118,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89768ebbd6cf5ac4ab7bbc9c74bd3723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayerSphere: 1
+  isPlayerSphere: 0
